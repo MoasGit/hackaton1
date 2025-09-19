@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 html {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 header {
@@ -36,11 +38,23 @@ nav ul {
 }
 
 img {
-    padding: 20px;
+    padding-top: 20px;
 }
 
 footer {
     background-color: #481466;
     color: white;
     text-align: right;
+}
+
+div {
+    padding-top: 20px;
+}
+
+.button-1 {
+    padding: 5px;
+    background-color: black;
+    color: plum;
+    border: 2px solid purple;
+    border-radius: 20%;
 }
