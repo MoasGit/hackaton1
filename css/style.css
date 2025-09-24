@@ -10,13 +10,12 @@ html {
 }
 
 header {
-    background-color: #c773f8;
+    background-color: #B7B7A4;
     text-align: center;
-    padding: 20px;
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 header h3 {
@@ -24,7 +23,7 @@ header h3 {
 }
 
 body {
-    background-color: #f2aaf0;
+    background-color: #EDDCD2;
     line-height: 1.5;
 }
 
@@ -32,18 +31,43 @@ body {
     line-height: 1.3;
 }
 
-nav ul {
-    display: inline-block;
-    list-style: none;
+.header-box {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.nav-links {
+    display: flex;         
+  gap: 30px;              
+  list-style: none;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #6B705C;
+}
+
+.nav-links a:hover {
+    color: #EDDCD2;
 }
 
 img {
-    padding-top: 20px;
+    padding: 40px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 footer {
-    background-color: #481466;
-    color: white;
+    background-color: #B7B7A4;
+    color: #FFF1E6;
     text-align: right;
 }
 
@@ -53,8 +77,8 @@ div {
 
 .button-1 {
     padding: 5px;
-    background-color: black;
-    color: plum;
-    border: 2px solid purple;
+    background-color: #A5A58D;
+    color: #FFF1E6;
+    border: 2px solid #A5A58D;
     border-radius: 20%;
 }
